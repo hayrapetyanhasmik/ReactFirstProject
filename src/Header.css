@@ -1,0 +1,51 @@
+.top{
+    
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url('./images/coffee-types-banner-desktop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.top a{
+    color: white;
+    text-decoration: none;
+}
+.leftSide{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* background-color: aqua; */
+
+}
+
+.rightSide{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+.logoImgDiv{
+   /* background-color: aqua; */
+   margin-right: 15%;
+}
+
+.logoImg{
+    width: 35px;
+    height: 35px;
+}
+
+.faq{
+    text-transform: uppercase;
+}
+
+.search{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
