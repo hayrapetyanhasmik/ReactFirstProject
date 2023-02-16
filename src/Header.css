@@ -1,18 +1,23 @@
 .top{
-    
-    height: 220px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('./images/coffee-types-banner-desktop.webp');
+    background-image: url('/public/images/coffee-types-banner-desktop.webp');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
+    border-bottom: 2px solid cyan;
+
 }
 
 .top a{
     color: white;
     text-decoration: none;
+}
+
+.top a:hover{
+    text-decoration: underline cyan;
 }
 .leftSide{
     display: flex;
@@ -48,4 +53,14 @@
     height: 30px;
     border-radius: 30px;
     padding-left: 15px;
+}
+
+.cartDiv{
+  
+}
+.cartDiv img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
 }
