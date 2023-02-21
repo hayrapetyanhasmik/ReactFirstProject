@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 export default function Footer() {
     return(
+        
         <div className="footer">
             
           <img src="./images/google.png"/>
@@ -10,5 +11,7 @@ export default function Footer() {
          
             <p> Copyright © 2023 <Link to='/' style={{color:"cyan"}}>Coffee Shop.</Link></p>
         </div>
+
+       
     )
 }

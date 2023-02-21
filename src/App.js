@@ -1,6 +1,7 @@
 import './App.css';
 import './Header.css';
-import './Container.css';
+import './Home.css';
+import './Products.css';
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';

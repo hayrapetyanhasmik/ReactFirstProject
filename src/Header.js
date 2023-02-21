@@ -1,7 +1,11 @@
 import {Link} from 'react-router-dom'; 
+import Cart from './Cart';
+import {Routes,Route} from 'react-router-dom'; 
+import {useState} from "react";
 
 export default function Header() {
-    return(
+
+        return(
         <nav>
             <div className="top">
                 <div className="leftSide">
@@ -23,6 +27,10 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            
+            
         </nav>  
+
+        
     )
 }

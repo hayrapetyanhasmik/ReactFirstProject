@@ -1,0 +1,30 @@
+.prodDiv{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: sandybrown;
+}
+
+.prodImgDiv{
+    width: 500px;
+    /* border: 2px solid cyan; */
+}
+.prodImg{
+    width: 100%;
+    height: 360px;
+}
+
+.descDiv{
+    text-align: center;
+    background-color: sandybrown;
+    width: 500px;
+    padding: 10px;
+    /* border: 2px solid cyan; */
+}
+
+.descDiv p{
+    margin-bottom: 20px;
+}
