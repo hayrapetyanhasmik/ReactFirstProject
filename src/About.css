@@ -1,0 +1,14 @@
+.about{
+    width: 100%;
+    padding: 60px;
+    color:rgb(80, 34, 2);
+    background-color: sandybrown;
+    text-align: center;
+    font-style: italic;
+    line-height: 35px;
+}
+
+.about h2{
+    margin-bottom: 20px;
+   
+}
