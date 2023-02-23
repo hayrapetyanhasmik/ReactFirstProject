@@ -4,8 +4,10 @@
     padding-bottom: 40px; 
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 70px;
+    align-items: center;
     background-color: sandybrown;
+    color: rgb(80, 34, 2);
 }
 
 .prodImgDiv{
@@ -20,11 +22,36 @@
 .descDiv{
     text-align: center;
     background-color: sandybrown;
-    width: 500px;
-    padding: 10px;
-    /* border: 2px solid cyan; */
+    width: 370px;
 }
 
 .descDiv p{
     margin-bottom: 20px;
+}
+
+.descDiv button{
+    color: rgb(80, 34, 2);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.color1{
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(80, 34, 2);
+}
+.color2{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: rgb(144, 70, 5);
+}
+.color3{
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(208, 115, 33)
 }

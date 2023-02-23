@@ -6,10 +6,10 @@
     text-align: center;
     padding-bottom: 10px;
     border-top: 2px solid cyan;
-    /* position: fixed;
+    /* position: sticky;
     bottom: 0px;
-    margin: 0 auto;
-    width: 80% */
+    margin: 0 auto; */
+    width: 100% 
    
 }
 

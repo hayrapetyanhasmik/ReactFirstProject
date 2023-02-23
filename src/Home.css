@@ -16,9 +16,13 @@
     color:rgb(80, 34, 2);
    
 }
-
+.imgDiv a{
+    color:rgb(80, 34, 2);
+    text-decoration: none;
+}
 .imgDiv button{
     color: rgb(80, 34, 2);
+    cursor: pointer;
     /* border: 2px solid cyan; */
 }
 

@@ -2,7 +2,7 @@
 export default function Cart() {
     return(
         <div>
-            <p>ffgh</p>
+            <p>Cart</p>
         </div>
     )
 }
