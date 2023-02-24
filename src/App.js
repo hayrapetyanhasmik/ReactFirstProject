@@ -37,7 +37,7 @@ function App() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/subscribe' element={<Subscribe />}/>
         <Route path='/faq' element={<Faq />}/>
-        <Route path='/cart' element={<Cart />}/>
+        <Route path='/cart/:id' element={<Cart />}/>
     </Routes>
       <Footer />
     </div>
